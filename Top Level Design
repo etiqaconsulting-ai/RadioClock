@@ -13,20 +13,22 @@
             <mxPoint x="210" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="f_3tWw24tzaGeIorujuh-18" edge="1" parent="1" source="f_3tWw24tzaGeIorujuh-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.817;exitY=1.057;exitDx=0;exitDy=0;exitPerimeter=0;" target="f_3tWw24tzaGeIorujuh-3">
+        <mxCell id="vd5azPQ9O933n-G0deqt-3" edge="1" parent="1" source="f_3tWw24tzaGeIorujuh-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="vd5azPQ9O933n-G0deqt-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="452" y="300" />
-              <mxPoint x="540" y="300" />
+              <mxPoint x="430" y="250" />
+              <mxPoint x="550" y="250" />
             </Array>
-            <mxPoint x="480" y="200" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="vd5azPQ9O933n-G0deqt-4" edge="1" parent="1" source="f_3tWw24tzaGeIorujuh-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="f_3tWw24tzaGeIorujuh-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="f_3tWw24tzaGeIorujuh-1" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="Radio Clock" vertex="1">
-          <mxGeometry height="70" width="120" x="354" y="170" as="geometry" />
+          <mxGeometry height="70" width="120" x="354" y="160" as="geometry" />
         </mxCell>
         <mxCell id="f_3tWw24tzaGeIorujuh-3" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="main()" vertex="1">
-          <mxGeometry height="60" width="120" x="480" y="400" as="geometry" />
+          <mxGeometry height="60" width="120" x="690" y="400" as="geometry" />
         </mxCell>
         <mxCell id="f_3tWw24tzaGeIorujuh-4" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;" value="&lt;h1 align=&quot;center&quot;&gt;Radio Clock Project&lt;/h1&gt;&lt;h2 align=&quot;center&quot;&gt;Arduino&lt;/h2&gt;" vertex="1">
           <mxGeometry height="120" width="180" x="324" y="20" as="geometry" />
@@ -65,6 +67,9 @@
         </mxCell>
         <mxCell id="f_3tWw24tzaGeIorujuh-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;ISR Timer2 Vector&lt;/div&gt;&lt;div&gt;(might need Timer 1 depending on target load)&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="290" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="vd5azPQ9O933n-G0deqt-2" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="setup" vertex="1">
+          <mxGeometry height="60" width="120" x="490" y="400" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
