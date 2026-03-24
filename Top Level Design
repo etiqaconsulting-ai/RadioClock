@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0" version="29.6.6">
   <diagram name="Page-1" id="1jxJlYYVZLYNkU-EOtzi">
-    <mxGraphModel dx="1375" dy="879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="948" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,7 +17,8 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="430" y="250" />
-              <mxPoint x="490" y="250" />
+              <mxPoint x="640" y="250" />
+              <mxPoint x="640" y="520" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -27,8 +28,11 @@
         <mxCell id="f_3tWw24tzaGeIorujuh-1" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="Radio Clock" vertex="1">
           <mxGeometry height="70" width="120" x="354" y="160" as="geometry" />
         </mxCell>
+        <mxCell id="vd5azPQ9O933n-G0deqt-36" edge="1" parent="1" source="f_3tWw24tzaGeIorujuh-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="vd5azPQ9O933n-G0deqt-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="f_3tWw24tzaGeIorujuh-3" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="main()" vertex="1">
-          <mxGeometry height="60" width="120" x="760" y="400" as="geometry" />
+          <mxGeometry height="60" width="120" x="740" y="240" as="geometry" />
         </mxCell>
         <mxCell id="f_3tWw24tzaGeIorujuh-4" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;" value="&lt;h1 align=&quot;center&quot;&gt;Radio Clock Project&lt;/h1&gt;&lt;h2 align=&quot;center&quot;&gt;Arduino&lt;/h2&gt;" vertex="1">
           <mxGeometry height="120" width="180" x="324" y="20" as="geometry" />
@@ -65,23 +69,70 @@
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="vd5azPQ9O933n-G0deqt-29" edge="1" parent="1" source="f_3tWw24tzaGeIorujuh-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="vd5azPQ9O933n-G0deqt-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="f_3tWw24tzaGeIorujuh-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;ISR Timer2 Vector&lt;/div&gt;&lt;div&gt;(might need Timer 1 depending on target load)&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="290" y="520" as="geometry" />
         </mxCell>
-        <mxCell id="vd5azPQ9O933n-G0deqt-8" edge="1" parent="1" source="vd5azPQ9O933n-G0deqt-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vd5azPQ9O933n-G0deqt-5" value="">
+        <mxCell id="vd5azPQ9O933n-G0deqt-23" edge="1" parent="1" source="vd5azPQ9O933n-G0deqt-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="vd5azPQ9O933n-G0deqt-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vd5azPQ9O933n-G0deqt-2" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="setup" vertex="1">
-          <mxGeometry height="60" width="120" x="430" y="520" as="geometry" />
-        </mxCell>
-        <mxCell id="vd5azPQ9O933n-G0deqt-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;set pins for i/o&lt;/div&gt;&lt;div&gt;LED_BUILTIN out&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="390" y="640" as="geometry" />
+          <mxGeometry height="60" width="120" x="586" y="520" as="geometry" />
         </mxCell>
         <mxCell id="vd5azPQ9O933n-G0deqt-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Initialize timers&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="550" y="640" as="geometry" />
+          <mxGeometry height="60" width="120" x="666" y="640" as="geometry" />
         </mxCell>
         <mxCell id="vd5azPQ9O933n-G0deqt-9" edge="1" parent="1" source="vd5azPQ9O933n-G0deqt-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.433;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="vd5azPQ9O933n-G0deqt-6">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vd5azPQ9O933n-G0deqt-11" edge="1" parent="1" source="vd5azPQ9O933n-G0deqt-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="f_3tWw24tzaGeIorujuh-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vd5azPQ9O933n-G0deqt-10" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="&lt;div&gt;wire.h I2C lib&lt;/div&gt;&lt;div&gt;liquidcrystal.h&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="175" x="80" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="vd5azPQ9O933n-G0deqt-18" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="set pins for I/O" vertex="1">
+          <mxGeometry height="170" width="146" x="480" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="vd5azPQ9O933n-G0deqt-19" parent="vd5azPQ9O933n-G0deqt-18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="LED_BUILTIN out" vertex="1">
+          <mxGeometry height="30" width="146" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vd5azPQ9O933n-G0deqt-20" parent="vd5azPQ9O933n-G0deqt-18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;LCD&amp;nbsp;register select D12&lt;/div&gt;&lt;div&gt;enable D11&lt;/div&gt;&lt;div&gt;D5,D4,D3,D2 data control&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="146" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vd5azPQ9O933n-G0deqt-21" parent="vd5azPQ9O933n-G0deqt-18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;radioIn D6 in&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="146" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vd5azPQ9O933n-G0deqt-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Initialise LCD&lt;/div&gt;&lt;div&gt;rowsLCD 4&lt;/div&gt;&lt;div&gt;colsLCD 16&lt;/div&gt;&lt;div&gt;LCD(12,11,5,4,3,2)&lt;/div&gt;&lt;div&gt;clear display&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="120" x="816" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="vd5azPQ9O933n-G0deqt-25" edge="1" parent="1" source="vd5azPQ9O933n-G0deqt-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.575;entryY=-0.02;entryDx=0;entryDy=0;entryPerimeter=0;" target="vd5azPQ9O933n-G0deqt-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="646" y="610" />
+              <mxPoint x="885" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vd5azPQ9O933n-G0deqt-26" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="timeStr readMinute()" vertex="1">
+          <mxGeometry height="60" width="120" x="840" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="vd5azPQ9O933n-G0deqt-27" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="&lt;div&gt;writeLCD&lt;/div&gt;&lt;div&gt;displayOptions:&lt;/div&gt;&lt;div&gt;&quot;Initialising&quot;&lt;/div&gt;&lt;div&gt;&quot;Reading Time&quot;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="680" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="vd5azPQ9O933n-G0deqt-34" edge="1" parent="1" source="vd5azPQ9O933n-G0deqt-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vd5azPQ9O933n-G0deqt-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vd5azPQ9O933n-G0deqt-28" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="read display options set flags" vertex="1">
+          <mxGeometry height="60" width="120" x="170" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="vd5azPQ9O933n-G0deqt-32" edge="1" parent="1" source="f_3tWw24tzaGeIorujuh-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.417;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" target="vd5azPQ9O933n-G0deqt-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vd5azPQ9O933n-G0deqt-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;localTime/GMT&lt;/div&gt;&lt;div&gt;estimate/accurate&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="170" y="750" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
