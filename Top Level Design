@@ -66,13 +66,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="f_3tWw24tzaGeIorujuh-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;ISR Timer2 Vector&lt;/div&gt;&lt;div&gt;(might need Timer 1 depending on target load)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="290" y="570" as="geometry" />
+          <mxGeometry height="60" width="120" x="290" y="520" as="geometry" />
         </mxCell>
         <mxCell id="vd5azPQ9O933n-G0deqt-2" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="setup" vertex="1">
           <mxGeometry height="60" width="120" x="490" y="400" as="geometry" />
         </mxCell>
         <mxCell id="vd5azPQ9O933n-G0deqt-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="60" width="120" x="440" y="560" as="geometry" />
+          <mxGeometry height="60" width="120" x="450" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="vd5azPQ9O933n-G0deqt-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="620" y="520" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
