@@ -132,7 +132,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vd5azPQ9O933n-G0deqt-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;localTime/GMT&lt;/div&gt;&lt;div&gt;estimate/accurate&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="170" y="750" as="geometry" />
+          <mxGeometry height="60" width="120" x="70" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="vd5azPQ9O933n-G0deqt-37" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="&lt;div&gt;writeLCD&lt;/div&gt;&lt;div&gt;displayOptions&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="vd5azPQ9O933n-G0deqt-38" edge="1" parent="1" source="vd5azPQ9O933n-G0deqt-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.58;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;" target="vd5azPQ9O933n-G0deqt-37">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
