@@ -140,6 +140,9 @@
         <mxCell id="vd5azPQ9O933n-G0deqt-38" edge="1" parent="1" source="vd5azPQ9O933n-G0deqt-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.58;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;" target="vd5azPQ9O933n-G0deqt-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="vd5azPQ9O933n-G0deqt-41" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;" value="tech note for protocol&lt;div&gt;https://www.creative-science.org.uk/MSF.html&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="314" x="560" y="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
